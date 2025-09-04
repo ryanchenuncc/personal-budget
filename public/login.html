@@ -1,1 +1,52 @@
-Login
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Personal Budget</title>
+    <meta name="description" content="Login to the Personal Budget app">
+    <meta name="keywords" content="app free budget finance login">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+    
+    <nav>
+        <ul>
+            <li><a href="./">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./login.html">Login</a></li>
+            <li><a href="https://google.com">Google</a></li>
+        </ul>
+    </nav>
+    
+    <div class="hero">
+        <h1>Personal Budget</h1>
+        <h2>A personal-budget management app</h2>
+        <h3>By: Ryan Chen</h3>
+    </div>
+    
+    <main class="center" id="main">
+    
+        <div class="page-area">
+    
+            <article>
+                <h1>Login</h1>
+                <form action="/login" method="POST">
+                    <label for="username">Username:</label><br>
+                    <input type="text" id="username" name="username" required><br><br>
+                    <label for="password">Password:</label><br>
+                    <input type="password" id="password" name="password" required><br><br>
+                    <input type="submit" value="Login">
+                </form>
+            </article>
+    
+        </div>
+    
+    </main>
+    
+    <footer class="center">
+        &copy; 2024 Personal Budget App
+    </footer>
+</body>
